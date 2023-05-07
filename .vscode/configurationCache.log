@@ -1,0 +1,1 @@
+{"buildTargets":["build","doc","docker-build","docker-run","docker-run-dev","docker-start","docker-stop","init-packages","migrate_down","migrate_up","run"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

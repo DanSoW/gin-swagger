@@ -1,0 +1,9 @@
+github.com/gin-gonic/gin            ; Библиотека для разработки веб-серверных приложений
+github.com/spf13/viper              ; Библиотека для конфигурирования
+github.com/jmoiron/sqlx             ; Библиотека для работы с базой данных
+github.com/lib/pq                   ; Драйвер для базы данных PostgreSQL
+github.com/joho/godotenv            ; Библиотека для работы с переменными окружения
+github.com/sirupsen/logrus          ; Библиотека для работы с логгированием
+github.com/codegangsta/gin          ; Библиотека для быстрых обновлений приложения при изменениях
+github.com/swaggo/swag/cmd/swag     ; Библиотека для автоматизирования документации
+github.com/samber/lo@v1             ; Библиотека для работы со срезами

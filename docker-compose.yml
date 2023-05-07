@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  server-app-main:
+    build: ./
+    command: ./server-app-main
+    ports:
+      - 5000:5000
+    depends_on:
+      - db
+    environment:
+      - DB_PASSWORD=''
+    container_name: rh-server-main
+  
+  db:
+    restart: always
+    image: postgres
+    volumes:
+      - ./database/postgres/data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=''
+    ports:
+      - 5434:5432
+    container_name: rh-db-main
